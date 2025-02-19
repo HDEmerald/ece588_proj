@@ -34,6 +34,10 @@ simple, easily readable, and easily modifiable.  It is not optimized,
 and omits many desirable features.
 """
 
+"""
+https://github.com/unexploredtest/neural-networks-and-deep-learning/tree/master
+"""
+
 #### Libraries
 # Standard library
 import random
