@@ -11,7 +11,10 @@ sizes = [784, 16, 16, 10]
 nn = network.Network(sizes)
 
 # Train the neural network
-nn.SGD(train_data, 25, 10, 0.05)
+learning_rate = 0.05
+num_epochs = 25
+mini_batch_size = 10
+nn.SGD(train_data, num_epochs, mini_batch_size, learning_rate)
 
 # Evaluate the model and print the correct results
 print(str(nn.evaluate(test_data)) + " correct results out of " + str(len(test_data)))
